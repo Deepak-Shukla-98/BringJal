@@ -12,15 +12,16 @@ Base URL
 •	Base URL: https://q02ndr4ll4.execute-api.us-east-1.amazonaws.com/dev
 
 API Routes
-Method	    Endpoint	                Description
-POST	    api/users/create	        Register a new user
-POST	    api/users/login	            User login and JWT authentication
-GET	        api/users	                Fetch all users, with optional sorting and filtering
-PUT	        api/users/edit/{id}	        Update user profile, requires JWT authentication
-Delete      api/users/delete/{id}       Delete user profile, requires JWT authentication
-POST	    api/inventories/create	    Create a new inventory location
-PUT	        api/inventories/edit/{id}   Update inventory details
-GET	        api/path/shortest_path	    Calculate the shortest delivery route
+Method	    Endpoint	                      Description
+POST	      api/users/create	              Register a new user
+POST	      api/users/login	                User login and JWT authentication
+GET	        api/users	                      Fetch all users, with optional sorting and filtering
+PUT	        api/users/edit/{id}	            Update user profile, requires JWT authentication
+Delete      api/users/delete/{id}           Delete user profile, requires JWT authentication
+POST	      api/inventories/create	        Create a new inventory location
+PUT	        api/inventories/edit/{id}       Update inventory details
+Delete      api/inventories/delete/{id}     Delete inventory details
+GET	        api/path/shortest_path	        Calculate the shortest delivery route
 ___________________________________________________________________________________________________________
 
 Route Details
@@ -104,7 +105,7 @@ Prerequisites
 •   npm install -g serverless
 
 1. Clone the Repository
-•   git clone <repository-url>
+•   git clone https://github.com/Deepak-Shukla-98/BringJal.git
 •   cd bringjal
 ___________________________________________________________________________________________________________
 
