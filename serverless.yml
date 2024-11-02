@@ -15,7 +15,7 @@ functions:
      - http: ANY /{proxy+}
      - http: ANY /
     environment:
-     ATLAS_URI: mongodb+srv://deepakshukla7274:deepak7274@mongo.dlzgbyq.mongodb.net/delivery_db?retryWrites=true&w=majority
+     ATLAS_URI: mongodb+srv://deepakshukla7274:<password>@mongo.dlzgbyq.mongodb.net/delivery_db?retryWrites=true&w=majority
      JWT_SECRET: somesuperhardstringtofindout
      PORT: 8000
      GOOGLE_API_KEY: AIzaSyDgs82c1GlN8j7ADTgQAnWUtH3oo-83i9U
